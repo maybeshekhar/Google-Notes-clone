@@ -1,0 +1,36 @@
+.note-container {
+    height: 100%;
+  }
+  
+  .note-container h2 {
+    margin-bottom: 20px;
+   
+  }
+
+  #light .note-container h2 {
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  #dark .note-container h2 {
+    color: lightyellow;
+    margin-bottom: 20px;
+    
+  }
+
+  #light .note-container_notes h3 {
+    color: black;
+  }
+
+  #dark .note-container_notes h3 {
+    color: lightyellow;
+  }
+
+  
+  .note-container_notes {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+  }
